@@ -36,7 +36,7 @@ class CustomActions extends Actions
      */
     private function getOptions($name)
     {
-        return array_merge($this->optionsDefault[$name], (array) config("admin.extensions.custom-button-action.{$name}"));
+        return array_merge($this->optionsDefault[$name], (array) config("admin.extensions.custom-actions-button.{$name}"));
     }
 
     /**
