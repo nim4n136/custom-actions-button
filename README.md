@@ -1,7 +1,6 @@
 Custom Actions Button
 ======
-Custom actions button for laravel-admin extenstion
-
+Custom actions button for laravel-admin extenstion 
 [![StyleCI](https://github.styleci.io/repos/196005846/shield?branch=master)](https://github.styleci.io/repos/196005846)
 
 ### Screenshots
