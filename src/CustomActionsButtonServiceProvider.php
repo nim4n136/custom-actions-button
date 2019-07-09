@@ -2,8 +2,8 @@
 
 namespace Encore\CustomActionsButton;
 
-use Illuminate\Support\ServiceProvider;
 use Encore\Admin\Grid;
+use Illuminate\Support\ServiceProvider;
 
 class CustomActionsButtonServiceProvider extends ServiceProvider
 {
