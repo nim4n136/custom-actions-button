@@ -18,7 +18,7 @@ class CustomActionsButtonServiceProvider extends ServiceProvider
 
         $this->app->booted(function () {
             Grid::init(function (Grid $grid) {
-                $grid->actions(CustomActions::class);
+                $grid->setActionClass(CustomActions::class);
             });
         });
     }
